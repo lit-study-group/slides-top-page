@@ -1,0 +1,88 @@
+/*-- clear--*/
+html, body, div, p, ul, li, img, header, footer, nav, section, article, aside, figure,
+li li, li p, li pre, li dt, li dd, dd li, dd p, dd pre, dd dt, dd dd,
+h1, h2, h3, h4, h5, h6,
+input, button, textarea {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*-- common --*/
+@font-face {
+  font-family: 'KozGoPr6N-Heavy';
+  src: local("KozGoPr6N-Heavy.otf");
+  src: url("fonts/KozGoPr6N-Heavy.otf");
+}
+@font-face {
+  font-family: 'KozGoPr6N-ExtraLight';
+  src: local("KozGoPr6N-ExtraLight.otf");
+  src: url("fonts/KozGoPr6N-ExtraLight.otf");
+}
+
+body {
+  min-width: 660px;
+  min-height: 878px;
+  background: url(images/background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top left;
+  color: white;
+  text-align: center;
+  font-family: 'KozGoPr6N-ExtraLight';
+}
+.logo {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 96px;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0 auto;
+  padding-left: 38px;
+  width: 405px;
+  background: url(images/icon-study.png) no-repeat;
+  background-position: left center;
+  text-align: center;
+  font-size: 62px;
+  font-weight: normal;
+  font-family: 'KozGoPr6N-ExtraLight';
+}
+
+.wrapper {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background: url(images/overlay-black.png);
+}
+
+ul {
+  margin-top: 50px;
+}
+
+ul li a{
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 34px;
+  font-weight: normal;
+  font-family: 'KozGoPr6N-Heavy';
+  text-shadow: 0 0 3px black;
+  line-height: 3em;
+}
+
+ul li a:hover {
+  color: yellow;
+}
+
